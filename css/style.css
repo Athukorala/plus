@@ -1,56 +1,384 @@
 #txtEmail{
   position: relative;
-  top:50px;
+  top:90px;
   left:300px;
 }
 
 #lblEmail{
   position: relative;
-  top:50px;
-  left:150px;
+  top:90px;
+  left:250px;
+  font-size: 17px;
+  color: aliceblue;
 }
 
 
 #checkRobot{
   position: relative;
-  top:50px;
-  left:470px;
+  top:100px;
+  left:550px;
+  font-size: 14px;
 }
 
 #advertiser{
   position: relative;
-  top:50px;
-  left:470px;
+  top:120px;
+  left:600px;
 }
 #user{
   position: relative;
-  top:60px;
+
+  top:121px;
   left:230px;
 }
 
 #btnUser{
   position: relative;
-  top:280px;
-  right:60px;
+  top:90px;
+  left:235px;
+}
+#btnUser:hover span{
+  color: #ffdd49;
 }
 #btnAdvertiser{
   position: relative;
-  top:280px;
-  left:170px;
+  top:90px;
+  left:600px;
 }
 #admin{
   position: relative;
-  bottom:200px;
-  left:700px;
+  bottom:150px;
+  left:900px;
+  color: white;
 }
 #btnAdmin{
   position: relative;
-  text-align: center
-  ;
-  padding-bottom:10px;
-  bottom:240px;
-  left:890px;
-  width: 60px;
+
+  bottom:150px;
+  left: 900px;
+
+  font-size: 12px;
+}
+#navBar{
+  height: 35px;
+}
+
+/*footer*/
+
+
+#footer-title{
+  margin-top: 40px;
+}
+
+#footer-title, #footer-description{
+  text-align: center;
+}
+
+#footer-description img{
+  width: 150px;
+}
+
+
+
+#footer-title{
+  padding: 1px;
+  color: #00cc00;
+  position: relative;
+  bottom:5px;
+  width:100%;
+  text-align: center;
+  z-index: -1;
+  -moz-animation: txtAnimation 5s;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation: txtAnimation 5s;
+  -webkit-animation-iteration-count: infinite;
+  animation: txtAnimation 5s;
+  animation-iteration-count: infinite;
+
+}
+
+@-moz-keyframes txtAnimation{
+  0% {color:lightgreen}
+  50% {color:green}
+  100%{color:darkgreen}
+}
+
+@-webkit-keyframes txtAnimation{
+  0% {color:lightgreen}
+  50% {color:green}
+  100%{color:darkgreen}
+}
+
+
+@keyframes txtAnimation{
+  0% {color:lightgreen}
+  50% {color:green}
+  100%{color:darkgreen}
+}
+
+/*========================== images ===========================*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+
+/*======================*/
+
+
+
+/*=========================
+  Icons
+ ================= */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
+
+.fa-facebook {
+  background: #3B5998;
   height: 20px;
-  font-size: 10px;
+
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+
+  height: 20px;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  height: 20px;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  height: 20px;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  height: 20px;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+.form-control{
+  height: 40px;
+}
+.footDiv{
+  position: fixed;
+  left: 0;
+  bottom: 10px;
+
+
+}
+
+.btnAdmin:hover {
+  color: white;
 }
