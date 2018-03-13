@@ -7,6 +7,8 @@ include "header.php";
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
         <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
 
 
 <body ng-app="mymodal" background="img/bluer.jpg" >
@@ -51,7 +53,7 @@ include "header.php";
                         <!-- Button -->
 
                         <div class="col-sm-12 controls">
-                            <center><a id="btn-login" href="#" class="btn btn-success">Login  </a>
+                            <center><a id="btn-login" href="user_profile.php" class="btn btn-success">Login  </a>
                                 <a href="index.php"><button id="btn-back" type="button" class="btn btn-danger">&nbsp Back</button></a>
                             </center>
 
@@ -110,7 +112,7 @@ include "header.php";
                     <div class="form-group">
 
                         <center><div class="col-md-offset-3 col-md-9">
-                                <a href="user_create_profile.php"><button id="btn-signup" type="button" class="btn btn-info"><i class="icon-hand-right"></i> &nbsp Sign Up</button></a>
+                                <a href="User_SignUp_EnterPrivateDetails.php"><button id="btn-signup" type="button" class="btn btn-info"><i class="icon-hand-right"></i> &nbsp Sign Up</button></a>
                                 <a href="#" onClick="$('#signupbox').hide(); $('#loginbox').show()"><button id="btn-back" type="submit" class="btn btn-danger"><i class="icon-hand-right"></i> &nbsp Back</button></a>
                             </div>
 

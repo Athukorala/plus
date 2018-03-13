@@ -6,7 +6,7 @@ include "header.php";
 
 
     <center><h1 style="position:relative;top: 40px"><span style="color: palegoldenrod">Hello ...</span>  Welcome to our <span style="color:red">Ceyentra Plus</span></h1></center>
-   <a href="user_create_profile.php"> <h5 style="position:relative;width:170px;font-size: 16px;color: midnightblue; top: 40px;left: 480px">Share all your ads!</h5></a>
+   <a href="Create_Ads.php"> <h5 style="position:relative;width:170px;font-size: 16px;color: midnightblue; top: 40px;left: 480px">Share all your ads!</h5></a>
     <form class="needs-validation" novalidate>
         <div class="form-row">
             <div class="col-md-4 mb-3">

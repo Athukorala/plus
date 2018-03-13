@@ -18,12 +18,21 @@
     <link rel="stylesheet" href="css/checkBox.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.payment/1.2.3/jquery.payment.min.js"></script>
 
+    <!-- If you're using Stripe for payments -->
+    <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>-->
 
 </head>
 <nav style="position:fixed ; height: 38px;"id="navBar" class="navbar navbar-expand-md navbar-dark fixed-top bg-light" >
-    <a class="navbar-brand" style="position:relative; height:30px;color: midnightblue;top: -12px">Ceyentra Plus</a><i class="far fa-comment-alt"></i><a class="nav-link" href="index.php"> <i style="position:relative;left: 1100px" class="fa fa-home fa-2x"></i></a>
+    <a class="navbar-brand" style="color: midnightblue"><span>Ceyentra Plus&nbsp;<i class="far fa-star"></i></a><a class="nav-link" href="index.php"> <i style="position:relative;left: 1120px" class="fa fa-home fa-1x"></i></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -42,7 +51,8 @@
     <div id="socialMedia" class="mainbox col-md-176 col-md-offset-173 col-sm-8 col-sm-offset-2" style="position: relative; left: 10px; width: 650px">
         <h4 style="position:relative;left: 40px;width: 680px;height:31px;background-color: #584d39;border-radius: 32px;color: white; text-align: center">Hey , please enter your social media account addresses...</h4><br><br>
         <center>
-        <div class="form-group row" style="position: relative;left: 80px">
+            <div style="width: 450px; height: 370px;top: ">
+        <div class="form-group row" style="position: relative;left: 80px;">
             <a href="#" class="fa fa-facebook"></a>
             <div class="col-10">
                 <input class="form-control" type="search" placeholder="Enter your facebook account" id="txtFb">
@@ -84,14 +94,14 @@
 
                 <div class="col-sm-12 controls">
                     <a href="#" onClick="$('#socialMedia').hide(); $('#nextStep').show()"><button type="button" class="btn btn-primary">Next step</button></a>
-                        <a href="index.php"><button id="btn-back" type="button" class="btn btn-danger">&nbsp&nbsp&nbsp Back &nbsp&nbsp&nbsp</button></a>
+                        <a href="User_SignUp_EnterPrivateDetails.php"><button id="btn-back" type="button" class="btn btn-danger">&nbsp&nbsp&nbsp Back &nbsp&nbsp&nbsp</button></a>
                 </div>
 
 
                 </div>
             </div>
 
-
+    </div>
 <!--        <div >-->
 <!--            <a href="#" onClick="$('#socialMedia').hide(); $('#nextStep').show()"><button type="button" class="btn btn-primary">Next step</button></a>-->
 <!--        </div>-->
@@ -175,7 +185,7 @@
             <!-- Button -->
 
             <div class="col-sm-12 controls" style="position: relative;left:500px; width: 300px">
-                <a id="btn-login" href="#" class="btn btn-success">&nbsp&nbsp&nbsp Save &nbsp&nbsp&nbsp</a>
+                <a href="#" onClick="$('#nextStep').hide(); $('#socialMedia').hide();$('#payment').show()"><button class="btn btn-success">&nbsp&nbsp&nbsp Save &nbsp&nbsp&nbsp</button>
                     <a href="#" onClick="$('#nextStep').hide(); $('#socialMedia').show()"><button id="btn-back" type="button" class="btn btn-danger">&nbsp&nbsp&nbsp Back &nbsp&nbsp&nbsp</button></a>
 
             </div>
@@ -183,6 +193,106 @@
 
 
 </div>
+
+
+<!--    ================= user payment details =================-->
+
+    <div id="payment" class="mainbox col-md-176 col-md-offset-173 col-sm-8 col-sm-offset-2" style="width: 750px;position: relative; left: 10px;display:none;height: 100px">
+        <h4 style="position:relative;width:920px;height:31px;background-color: #584d39;border-radius: 32px;color: white; text-align: center;right: 100px">User payment details</h4><br>
+
+        <div class="container" style="width: 700px">
+            <div class="panel panel-default credit-card-box">
+                <div class="panel-heading display-table" >
+                    <div class="row display-tr" >
+
+                        <div class="display-td" >
+                            <img class="img-responsive pull-right" src="http://i76.imgup.net/accepted_c22e0.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <form role="form" id="payment-form" method="POST" action="javascript:void(0);">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="form-group">
+                                    <label for="cardNumber">CARD NUMBER</label>
+                                    <div class="input-group">
+                                        <input
+                                                type="tel"
+                                                class="form-control"
+                                                name="cardNumber"
+                                                placeholder="Valid Card Number"
+                                                autocomplete="cc-number"
+                                                required autofocus
+                                        />
+<!--                                        <span class="input-group-addon"><i class="fa fa-credit-card" style="position:relative;height: 10px;width: 10px"></i></span>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-7 col-md-7">
+                                <div class="form-group">
+                                    <label for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
+                                    <input
+                                            type="tel"
+                                            class="form-control"
+                                            name="cardExpiry"
+                                            placeholder="MM / YY"
+                                            autocomplete="cc-exp"
+                                            required
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-xs-5 col-md-5 pull-right">
+                                <div class="form-group">
+                                    <label for="cardCVC">CV CODE</label>
+                                    <input
+                                            type="tel"
+                                            class="form-control"
+                                            name="cardCVC"
+                                            placeholder="CVC"
+                                            autocomplete="cc-csc"
+                                            required
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="form-group">
+                                    <label for="couponCode">COUPON CODE</label>
+                                    <input type="text" class="form-control" name="couponCode" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div style="margin-top:10px" class="form-group">
+                                <!-- Button -->
+
+                                <div class="col-sm-12 controls" style="position: relative;left:100px; width: 300px">
+                                    <a href="#" onClick="$('#nextStep').hide(); $('#socialMedia').hide();$('#payment').show()"><button class="btn btn-success">&nbsp&nbsp&nbsp Save &nbsp&nbsp&nbsp</button>
+                                        <a href="#" onClick="$('#nextStep').show(); $('#socialMedia').hide();$('#payment').hide()"><button id="btn-back" type="button" class="btn btn-danger">&nbsp&nbsp&nbsp Back &nbsp&nbsp&nbsp</button></a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row" style="display:none;">
+                            <div class="col-xs-12">
+                                <p class="payment-errors"></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    ====================================-->
+
+
+
 </div>
 
 
