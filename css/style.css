@@ -115,6 +115,44 @@
   50% {color:green}
   100%{color:darkgreen}
 }
+/*=========================== header-title =======================*/
+
+#header-title{
+
+  -moz-animation: headAnimation 5s;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation: headAnimation 5s;
+  -webkit-animation-iteration-count: infinite;
+  animation: headAnimation 5s;
+  animation-iteration-count: infinite;
+
+}
+
+@-moz-keyframes headAnimation{
+  0% {color:lightgreen}
+  25% {color:#9fcdff}
+  50% {color:#00aff0}
+  75% {color:#9fcdff}
+  100%{color:darkgreen}
+}
+
+@-webkit-keyframes headAnimation{
+  0% {color:lightgreen}
+  25% {color:#9fcdff}
+  50% {color:#00aff0}
+  75% {color:#9fcdff}
+  100%{color:darkgreen}
+}
+
+
+@keyframes headAnimation{
+  0% {color:lightgreen}
+  25% {color:#9fcdff}
+  50% {color:#00aff0}
+  75% {color:#9fcdff}
+  100%{color:darkgreen}
+}
+
 
 /*========================== images ===========================*/
 .fa {

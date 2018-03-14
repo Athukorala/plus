@@ -169,6 +169,7 @@
             <table class="table table-hover table-light" style="opacity:0.8;background-color:#ccb39a;position:relative;width: 900px; right: 100px;border-radius: 12px">
                 <thead>
                 <tr>
+
                     <th scope="col"></th>
                     <th scope="col">Photo</th>
                     <th style="width: 300px" scope="col">Social media</th>
@@ -178,7 +179,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
+                <tr  onclick="clickTableRow()">
                     <th scope="row">1</th>
                     <td><img src="img/user.png" width="80px" height="80px"></a></td>
                     <td><span style="color: blue"><u>Facebook</u><br><u>Youtube</u><br><u>Twitter</u></span> </td>
@@ -188,7 +189,7 @@
 <!--                    <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>-->
 
                 </tr>
-                <tr>
+                <tr onclick="clickTableRow()">
                     <th scope="row">2</th>
                     <td><img src="img/user.png" width="80px" height="80px"></a></td>
                     <td><span style="color: blue"><u>Facebook</u></span> </td>
@@ -196,7 +197,7 @@
                     <td><i class="fa fa-star" style="color: yellow"></i></td>
 
                 </tr>
-                <tr>
+                <tr onclick="clickTableRow()">
                     <th scope="row">3</th>
                     <td><img  src="img/user.png" width="80px" height="80px"></a></td>
                     <td><span style="color: blue"><u>Facebook</u><br><u>Linkedin</u></span> </td>
@@ -204,7 +205,7 @@
                     <td><i class="fa fa-star"  style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i></td>
 
                 </tr>
-                <tr>
+                <tr onclick="clickTableRow()">
                     <th scope="row">4</th>
                     <td><img src="img/user.png" width="80px" height="80px"></a></td>
                     <td><span style="color: blue"><u>Facebook</u><br><u>Twitter</u><br><u>Youtube</u></span> </td>

@@ -42,7 +42,7 @@
 <div class="wrapper">
 
     <div class="submenu" style="background-color:darkgray;">
-        <a class="logo" href="">Ceyentra paint - Create Ads!</a>
+        <a class="logo" href="">Ceyentra paint - Create Ad</a>
         <div class="block attributes" id="action_attributes"></div>
         <div class="clear"></div>
     </div>

@@ -2,16 +2,17 @@
 include "header.php";
 
 ?>
-<div class="container" >
+
+    <div class="container" >
 
 
     <center><h1 style="position:relative;top: 40px"><span style="color: palegoldenrod">Hello ...</span>  Welcome to our <span style="color:red">Ceyentra Plus</span></h1></center>
-   <a href="Create_Ads.php"> <h5 style="position:relative;width:170px;font-size: 16px;color: midnightblue; top: 40px;left: 480px">Share all your ads!</h5></a>
+   <a href="admin_main_form.php"> <h5 style="position:relative;width:170px;font-size: 16px;color: midnightblue; top: 40px;left: 480px">Share all your ads!</h5></a>
     <form class="needs-validation" novalidate>
         <div class="form-row">
             <div class="col-md-4 mb-3">
 
-                <a href="choosePhoto.php"> <h5 id="lblEmail">Please Enter your email </h5></a>
+                <a href="admin_form.html"> <h5 id="lblEmail">Please Enter your email </h5></a>
 
                 <input style="right:50px;width: 455px" type="text" id="txtEmail" class="form-control"  placeholder="Enter your email">
 
@@ -31,6 +32,7 @@ include "header.php";
 
 
 </div>
+    </div>
 <?php
 include "footer.php";
 

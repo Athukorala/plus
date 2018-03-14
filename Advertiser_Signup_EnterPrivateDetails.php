@@ -75,7 +75,7 @@ include "header.php";
 
                     <div class="form-group">
                         <a href="user_login.php"><button type="button" class="btn btn-danger">Back</button></a>
-                        <a href="user_create_profile.php"> <button type="button" class="btn btn-info">Go to next step</button></a>
+                        <a href="advertiser_payment.php"> <button type="button" class="btn btn-info">Go to next step</button></a>
 
                     </div>
 

@@ -51,7 +51,7 @@ include "header.php";
                         <!-- Button -->
 
                         <center><div class="col-sm-12 controls">
-                            <a id="btn-login" href="#" class="btn btn-success">Login  </a>
+                            <a id="btn-login" href="admin_main_form.php" type="button" class="btn btn-success">Login  </a>
                                 <a href="index.php"><button id="btn-back" type="button" class="btn btn-danger">&nbsp Back</button></a>
 
 

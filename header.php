@@ -17,14 +17,10 @@
 
 </head>
 <nav style="position:fixed" id="navBar" class="navbar navbar-expand-md navbar-dark fixed-top bg-light" >
-    <a class="navbar-brand" style="color: midnightblue"><span>Ceyentra Plus&nbsp;<i class="far fa-star"></i></a><a class="nav-link" href="index.php"> <i style="position:relative;left: 1120px" class="fa fa-home fa-1x"></i></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-
+    <a class="navbar-brand" style="color: midnightblue"><span id="header-title">Ceyentra Plus &nbsp;</a><a class="nav-link" href="index.php"> <i style="position:relative;left: 1120px" class="fa fa-home fa-1x"></i></a>
 </nav>
 
 <body ng-app="mymodal" background="img/bluer.jpg" >
+<!--<div class="col-lg-10 well" style="position:fixed;left: 100px;background-color:#ccb39a;opacity: 0.7;border-radius: 12px">-->
 
 
