@@ -3,7 +3,7 @@ tinyMCE.init({
 
     theme: "modern",
 
-    height: 600,
+    height: 5,
 
     plugins: [
         "advlist autolink link image lists charmap print preview hr anchor pagebreak",

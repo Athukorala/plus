@@ -117,7 +117,7 @@
 }
 /*=========================== header-title =======================*/
 
-#header-title{
+.header-title{
 
   -moz-animation: headAnimation 5s;
   -moz-animation-iteration-count: infinite;

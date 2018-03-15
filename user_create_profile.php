@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-<nav style="position:fixed" id="navBar" class="navbar navbar-expand-md navbar-dark fixed-top bg-light" >
-    <a class="navbar-brand" id="header-title" style="color: midnightblue"><span>Ceyentra Plus&nbsp;</a><a class="nav-link" href="index.php"> <i style="position:relative;left: 1120px" class="fa fa-home fa-1x"></i></a>
+<nav style="position:fixed;background-color: rgba(254,208,117,0.29)" id="navBar" class="navbar navbar-expand-md navbar-dark fixed-top bg-pink" >
+    <a class="navbar-brand" id="header-title" style="color: midnightblue"><span id="header-title">Ceyentra Plus &nbsp;</a><a class="nav-link" href="index.php"> <i style="position:relative;left: 1120px" class="fa fa-home fa-1x"></i></a>
 </nav>
 
 <body ng-app="mymodal" background="img/bluer.jpg" >
@@ -247,7 +247,7 @@
                                 <!-- Button -->
 
                                 <div class="col-sm-12 controls" style="position: relative;left:100px; width: 300px">
-                                    <a href="#" onClick="$('#nextStep').hide(); $('#socialMedia').hide();$('#payment').show()"><button class="btn btn-success">&nbsp&nbsp&nbsp Save &nbsp&nbsp&nbsp</button>
+                                    <a href="user_login.php"><button class="btn btn-success">&nbsp&nbsp&nbsp Save &nbsp&nbsp&nbsp</button></a>
                                         <a href="#" onClick="$('#nextStep').show(); $('#socialMedia').hide();$('#payment').hide()"><button id="btn-back" type="button" class="btn btn-danger">&nbsp&nbsp&nbsp Back &nbsp&nbsp&nbsp</button></a>
 
                                 </div>

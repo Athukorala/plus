@@ -5,3 +5,4 @@
     <h2 style="font-size: 18px" id="footer-title">Ceyentra Technologies</h2>
 </nav>
 <script src="js/script.js"></script>
+<script src="js/imageUpload.js"></script>

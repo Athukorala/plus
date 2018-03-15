@@ -40,8 +40,8 @@
     <!--<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>-->
 
 </head>
-<nav style="position:fixed" id="navBar" class="navbar navbar-expand-md navbar-dark fixed-top bg-light" >
-    <a class="navbar-brand" style="color: midnightblue"><span id="header-title">Ceyentra Plus &nbsp;</a><a class="nav-link" href="index.php"> <i style="position:relative;left: 1120px" class="fa fa-home fa-1x"></i></a>
+<nav style="position:fixed;background-color: rgba(254,208,117,0.29)" id="navBar" class="navbar navbar-expand-md navbar-dark fixed-top bg-pink" >
+    <a class="navbar-brand" id="header-title" style="color: midnightblue"><span id="header-title">Ceyentra Plus &nbsp;</a><a class="nav-link" href="index.php"> <i style="position:relative;left: 1120px" class="fa fa-home fa-1x"></i></a>
 </nav>
 
 <body ng-app="mymodal" background="img/bluer.jpg" >
@@ -54,61 +54,61 @@
         <ul id="sortable">
             <li><div class="media" style="color: black">
                     <div class="media-left align-self-center">
-                        <img class="rounded-circle" src="img/mine/1.jpg" style="width: 85px;height: 85px">
+                        <img class="rounded-circle" src="img/mine/kisandu.jpg" style="width: 85px;height: 85px">
                     </div>
                     <div class="media-body">
-                        <p>Request from Denver simonz is pending... </p><br>
+                        <p>Request from Kisandu is pending... </p><br>
                     </div>
                     <div class="media-right align-self-center">
-                        <a href="#" class="btn btn-default">&nbsp;view&nbsp;&nbsp;</a>
+                        <a href="view_advertisers_ads.php" class="btn btn-default">&nbsp;view&nbsp;&nbsp;</a>
                     </div>
                 </div></li>
             <br>
             <li><div class="media" style="color: black">
                     <div class="media-left align-self-center">
-                        <img class="rounded-circle" src="img/mine/Binu%20IJSE%2020171121_221116.jpg" style="width: 85px;height: 85px">
+                        <img class="rounded-circle" src="img/mine/sameera.jpg" style="width: 85px;height: 85px">
                     </div>
                     <div class="media-body">
-                        <p>Request from Binura Salindra is pending... </p><br>
+                        <p>Request from Sameera is pending... </p><br>
                     </div>
                     <div class="media-right align-self-center">
-                        <a href="#" class="btn btn-default">&nbsp;view&nbsp;&nbsp;</a>
+                        <a href="view_advertisers_ads.php" class="btn btn-default">&nbsp;view&nbsp;&nbsp;</a>
                     </div>
                 </div></li>
             <br>
             <li><div class="media" style="color: black">
                     <div class="media-left align-self-center">
-                        <img class="rounded-circle" src="img/mine/vidurajith.jpg" style="width: 85px;height: 85px;rotation: 90deg">
+                        <img class="rounded-circle" src="img/mine/kavi.jpg" style="width: 85px;height: 85px;rotation: 90deg">
                     </div>
                     <div class="media-body">
-                        <p>Request from Vidurajith Darshana is pending... </p><br>
+                        <p>Request from Kavindu is pending... </p><br>
                     </div>
                     <div class="media-right align-self-center">
-                        <a href="#" class="btn btn-default">&nbsp;view&nbsp;&nbsp;</a>
+                        <a href="view_advertisers_ads.php" class="btn btn-default">&nbsp;view&nbsp;&nbsp;</a>
                     </div>
                 </div></li>
             <br>
             <li><div class="media" style="color: black">
                     <div class="media-left align-self-center">
-                        <img class="rounded-circle" src="img/mine/4.jpg" style="width: 85px;height: 85px">
+                        <img class="rounded-circle" src="img/mine/suuti.jpg" style="width: 85px;height: 85px">
                     </div>
                     <div class="media-body">
-                        <p>Request from Sandun Dilhan is pending... </p>
+                        <p>Request from Suranjith is pending... </p>
                     </div>
                     <div class="media-right align-self-center">
-                        <a href="#" class="btn btn-default">&nbsp;view&nbsp;&nbsp;</a>
+                        <a href="view_advertisers_ads.php" class="btn btn-default">&nbsp;view&nbsp;&nbsp;</a>
                     </div>
                 </div></li>
             <br>
             <li><div class="media" style="color: black">
                     <div class="media-left align-self-center">
-                        <img class="rounded-circle" src="img/mine/5.jpg" style="width: 85px;height: 85px">
+                        <img class="rounded-circle" src="img/mine/subhani.jpg" style="width: 85px;height: 85px">
                     </div>
                     <div class="media-body">
-                        <p>Request from Janitha Dananjaya is pending... </p><br>
+                        <p>Request from Subhani is pending... </p><br>
                     </div>
                     <div class="media-right align-self-center">
-                        <a href="#" class="btn btn-default">&nbsp;view&nbsp;&nbsp;</a>
+                        <a href="view_advertisers_ads.php" class="btn btn-default">&nbsp;view&nbsp;&nbsp;</a>
                     </div>
                 </div></li>
 
@@ -143,7 +143,7 @@
 
         <center><div class="form-group">
             <label style="color: red">Tharindu's Rating</label>
-            <i class="fa fa-star"  style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i>
+            <i class="fa fa-star"  style="color: yellow"></i><i class="fa fa-star" style="color: yellow;font-size: 4px;height: 3px"></i><i class="fa fa-star" style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i>
                 <br>
                 <a href="#" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-twitter"></a>

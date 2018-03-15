@@ -85,7 +85,7 @@ include "header.php";
                         <!-- Button -->
 
                         <div class="col-sm-12 controls" style="position: relative;left:100px; width: 300px">
-                            <a href="#" onClick="$('#nextStep').hide(); $('#socialMedia').hide();$('#payment').show()"><button class="btn btn-success">&nbsp&nbsp&nbsp Save &nbsp&nbsp&nbsp</button>
+                            <a href="advertiser_login.php"><button class="btn btn-success">&nbsp&nbsp&nbsp Save &nbsp&nbsp&nbsp</button></a>
                                 <a href="#" onClick="$('#nextStep').show(); $('#socialMedia').hide();$('#payment').hide()"><button id="btn-back" type="button" class="btn btn-danger">&nbsp&nbsp&nbsp Back &nbsp&nbsp&nbsp</button></a>
 
                         </div>
