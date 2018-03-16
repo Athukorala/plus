@@ -72,6 +72,28 @@ include "header.php";
                         <label>Website</label>
                         <input type="text" placeholder="Enter Website Name Here.." class="form-control">
                     </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                                <!-- image-preview-filename input [CUT FROM HERE]-->
+                                <div class="input-group image-preview">
+                                    <input type="text" class="form-control image-preview-filename" disabled="disabled"> <!-- don't give a name === doesn't send on POST/GET -->
+                                    <span class="input-group-btn">
+                    <!-- image-preview-clear button -->
+                    <button type="button" class="btn btn-default image-preview-clear" style="display:none;">
+                        <span class="glyphicon glyphicon-remove"></span> Clear
+                    </button>
+                                        <!-- image-preview-input -->
+                    <div class="btn btn-default image-preview-input">
+                        <span class="glyphicon glyphicon-folder-open"></span>
+                        <span class="image-preview-input-title">Browse</span>
+                        <input type="file" accept="image/png, image/jpeg, image/gif" name="input-file-preview"/> <!-- rename it -->
+                    </div>
+
+                                </div><!-- /input-group image-preview [TO HERE]-->
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="form-group">
                         <a href="user_login.php"><button type="button" class="btn btn-danger">Back</button></a>

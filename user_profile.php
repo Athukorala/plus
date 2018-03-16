@@ -13,6 +13,7 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 
 
     <style>
@@ -41,7 +42,7 @@
 
 </head>
 <nav style="position:fixed;background-color: rgba(254,208,117,0.29)" id="navBar" class="navbar navbar-expand-md navbar-dark fixed-top bg-pink" >
-    <a class="navbar-brand" id="header-title" style="color: midnightblue"><span id="header-title">Ceyentra Plus &nbsp;</a><a class="nav-link" href="index.php"> <i style="position:relative;left: 1120px" class="fa fa-home fa-1x"></i></a>
+    <a class="navbar-brand" style="color: midnightblue"><span class="header-title">Ceyentra Plus &nbsp;</a><a class="nav-link" href="index.php"> <i style="position:relative;left: 1120px" class="fa fa-home fa-1x"></i></a>
 </nav>
 
 <body ng-app="mymodal" background="img/bluer.jpg" >
@@ -143,7 +144,8 @@
 
         <center><div class="form-group">
             <label style="color: red">Tharindu's Rating</label>
-            <i class="fa fa-star"  style="color: yellow"></i><i class="fa fa-star" style="color: yellow;font-size: 4px;height: 3px"></i><i class="fa fa-star" style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i>
+            <i class="fa fa-star"  style="color: yellow;font-size: 20px"></i><i class="fa fa-star" style="color: yellow;font-size: 20px"></i><i class="fa fa-star" style="color: yellow;font-size: 20px"></i><i class="fa fa-star" style="color: yellow;font-size: 20px"></i><i class="fa fa-star" style="color: yellow;font-size: 20px"></i>
+
                 <br>
                 <a href="#" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-twitter"></a>

@@ -16,13 +16,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/checkBox.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="css/style.css">
 
     <!--<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>-->
 
 </head>
 <nav style="position:fixed;background-color: rgba(254,208,117,0.29)" id="navBar" class="navbar navbar-expand-md navbar-dark fixed-top bg-pink" >
-    <a class="navbar-brand" id="header-title" style="color: midnightblue"><span id="header-title">Ceyentra Plus &nbsp;</a><a class="nav-link" href="index.php"> <i style="position:relative;left: 1120px" class="fa fa-home fa-1x"></i></a>
+    <a class="navbar-brand" style="color: midnightblue"><span id="header-title">Ceyentra Plus &nbsp;</a><a class="nav-link" href="index.php"> <i style="position:relative;left: 1120px" class="fa fa-home fa-1x"></i></a>
 </nav>
 
 <body ng-app="mymodal" background="img/bluer.jpg" >
@@ -187,7 +187,7 @@
                     <td><img class="rounded-circle" src="img/me.jpg" style="width: 85px;height: 85px"></a></td>
                     <td><span style="color: blue"><u>Facebook</u><br><u>Youtube</u></span> </td>
                     <td><b>Tharindu Dananjaya</b> <br> $7 for two tweets and one facebook post Approximated reach - 200 impressions </td>
-                    <td><i class="fa fa-star"  style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i></td>
+                    <td><i class="fa fa-star"  style="color: yellow;font-size: 20px"></i><i class="fa fa-star" style="color: yellow;font-size: 20px"></i><i class="fa fa-star" style="color: yellow;font-size: 20px"></i><i class="fa fa-star" style="color: yellow;font-size: 20px"></i></td>
                     <!--                    <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>-->
 
 
@@ -199,7 +199,7 @@
                     <td><img class="rounded-circle" src="img/mine/denver.jpg" style="width: 85px;height: 85px"></a></td>
                     <td><span style="color: blue"><u>Facebook</u><br><u>Youtube</u><br><u>Twitter</u></span> </td>
                     <td><b>Denver Simonsz</b> <br> $29 for two tweets and one facebook post Approximated reach - 200 impressions</td>
-                    <td><i class="fa fa-star"  style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i></td>
+                    <td><i class="fa fa-star"  style="color: yellow;font-size: 20px"></i><i class="fa fa-star" style="color: yellow;font-size: 20px"></i><i class="fa fa-star" style="color: yellow;font-size: 20px"></i></td>
 <!--                    <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>-->
 
                     <!--                    <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>-->
@@ -211,7 +211,7 @@
                     <td><img class="rounded-circle" src="img/mine/Binu%20IJSE%2020171121_221116.jpg" style="width: 85px;height: 85px"></a></td>
                     <td><span style="color: blue"><u>Facebook</u></span> </td>
                     <td><b>Binura Salindra</b> <br> $15 for two tweets and one facebook post Approximated reach - 200 impressions </td>
-                    <td><i class="fa fa-star" style="color: yellow"></i></td>
+                    <td><i class="fa fa-star" style="color: yellow;font-size: 20px"></i></td>
 <!--                    <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>-->
 
 
@@ -221,7 +221,7 @@
                     <td><img class="rounded-circle" src="img/mine/sandun.jpg" style="width: 85px;height: 85px"></a></td>
                     <td><span style="color: blue"><u>Facebook</u><br><u>Linkedin</u></span> </td>
                     <td><b>Sandun Dilhan</b> <br> $7 for two tweets and one facebook post Approximated reach - 200 impressions </td>
-                    <td><i class="fa fa-star"  style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i></td>
+                    <td><i class="fa fa-star"  style="color: yellow;font-size: 20px"></i><i class="fa fa-star" style="color: yellow;font-size: 20px"></i><i class="fa fa-star" style="color: yellow;font-size: 20px"></i><i class="fa fa-star" style="color: yellow;font-size: 20px"></i></td>
 <!--                    <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>-->
 
 
@@ -232,7 +232,7 @@
                     <td><img class="rounded-circle" src="img/mine/vidurajith.jpg" style="width: 85px;height: 85px;rotation: 90deg"></a></td>
                     <td><span style="color: blue"><u>Facebook</u><br><u>Twitter</u><br><u>Youtube</u></span> </td>
                     <td><b>Vidurajith Darshana</b> <br> $29 for two tweets and one facebook post Approximated reach - 200 impressions</td>
-                    <td><i class="fa fa-star"  style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i><i class="fa fa-star" style="color: yellow"></i></td>
+                    <td><i class="fa fa-star"  style="color: yellow;font-size: 20px"></i><i class="fa fa-star" style="color: yellow;font-size: 20px"></i><i class="fa fa-star" style="color: yellow;font-size: 20px"></i></td>
 <!--                    <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>-->
 
 
@@ -240,7 +240,7 @@
                 </tbody>
             </table>
             <div style="position:relative;width: 300px;height: 100px;left: 660px">
-           <a href="#" onClick="$('#socialMedia').show(); $('#nextStep').show();$('#searchUsers').hide()"><button id="btn-back" type="button" class="btn btn-danger">&nbsp&nbsp&nbsp Back &nbsp&nbsp&nbsp</button></a>
+           <a href="#" onClick="$('#socialMedia').show(); $('#nextStep').show();$('#searchUsers').hide()"><button id="btn-back" type="button" class="btn btn-danger">&nbsp;&nbsp;&nbsp; Back &nbsp;&nbsp;&nbsp;</button></a>
             </div>
         </div>
 

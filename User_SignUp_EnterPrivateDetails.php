@@ -119,7 +119,7 @@ include "header.php";
                         <span class="image-preview-input-title">Browse</span>
                         <input type="file" accept="image/png, image/jpeg, image/gif" name="input-file-preview"/> <!-- rename it -->
                     </div>
-                </span>
+
                                 </div><!-- /input-group image-preview [TO HERE]-->
                             </div>
                         </div>

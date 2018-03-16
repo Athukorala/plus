@@ -30,7 +30,7 @@ include "header.php";
 
 </style>
 
-<div class="col-lg-10 well" style="left: 420px;background-color:#ccb39a;opacity: 0.8;border-radius: 12px;top:50px;width: 800px;height: 500px">
+<div class="col-lg-10 well" style="left: 450px;background-color:#ccb39a;opacity: 0.8;border-radius: 12px;top:50px;width: 800px;height: 500px">
     <div style="position:relative;width:700px;left:30px;height: 400px;top:30px;">
 
         <div class="form-group row">
@@ -46,23 +46,24 @@ include "header.php";
             </div>
         </div>
         <div class="form-group row" style="position:relative;left: 160px;width: 500px">
-            <div class="img"><img src="img/img.gif" class="img-fluid" alt="Responsive image" style="width: 100px"></div>
+            <a target="_blank" href="img/img.png"> <div  class="img"><img src="img/img.png" class="img-fluid" alt="Responsive image" style="width: 100px"></div></a>
                 &nbsp;&nbsp;
-            <div class="img"><img src="img/img.gif" class="img-fluid" alt="Responsive image" style="width: 100px"></div>
+            <a target="_blank" href="img/img.png"><div class="img"><img src="img/img.png" class="img-fluid" alt="Responsive image" style="width: 100px"></div></a>
                 &nbsp;&nbsp;
-            <div class="img"><img src="img/img.gif" class="img-fluid" alt="Responsive image" style="width: 100px"></div>
+            <a target="_blank" href="img/img.png"><div class="img"><img src="img/img.png" class="img-fluid" alt="Responsive image" style="width: 100px"></div></a>
         </div>
         <label class="col-sm-2 col-form-label" style="text-align: right;left:140px;color: #0000aa">Photo link : </label>
         <br><br>
 
             <div class="form-group shadow-textarea">
                 <label for="exampleFormControlTextarea6">Type advertisment details ... </label>
-                <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="9" placeholder="Write something here..." disabled></textarea>
+                <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here..." disabled></textarea>
             </div>
         <div class="form-group" style="position:relative;left: 420px;width: 300px">
             <a href="user_profile.php"><button type="button" class="btn btn-danger">Back</button></a>
             <a href="user_profile.php"> <button type="button" class="btn btn-warning">Reject</button></a>
             <a href="Create_Ads.php"> <button type="button" class="btn btn-info">Create Ads</button></a>
+            <a href="share_screenshot.php"><i class="fa fa-check" aria-hidden="true" style="color: green"></i></a>
 
         </div>
 
@@ -71,7 +72,7 @@ include "header.php";
 
 </div>
 
-<div class="container" style="position:relative;right: 95px;bottom:400px">
+<div class="container" style="position:fixed;left: 1px;bottom:350px">
     <div class="col-sm-2 col-md-2">
         <img src="img/mine/kisandu.jpg"
              alt="" class="img-rounded img-responsive" style="width: 177px;border-radius: 15px"/>

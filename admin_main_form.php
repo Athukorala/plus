@@ -28,14 +28,14 @@ include "header.php";
 
 <div class="container-fluid" style="position: relative; top:30px">
     <div class="row">
-        <nav class="col-sm-2 col-md-2 d-none d-sm-block bg-light media" style="height:520px;background-color: red;position: fixed;width:400px;top:36px">
+        <nav class="col-sm-2 col-md-2 d-none d-sm-block bg-light media" style="height:500px;background-color: rgba(254,208,117,0.29);position: fixed;width:400px;top:50px">
 
             <br><br>
             <ul class="nav nav-pills flex-column">
 
 
                 <li class="nav-item" style="width:170px;height: 40px" >
-                    <a href="#" onClick="$('#view_users').hide();$('#view_advertisers').hide();$('#view_users_request').show()"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; View users requests</a>
+                    <a href="#" onClick="$('#view_users').hide();$('#view_advertisers').hide();$('#view_users_request').show()"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; Users requests</a>
                 </li>
 
 
@@ -49,7 +49,7 @@ include "header.php";
                 </li>
 
                 <li class="nav-item" style="width:170px;height: 40px">
-                    <a href="#" onClick="$('#view_users_request').show();$('#view_users').hide();$('#view_advertisers').hide()"><i class="fa fa-bath" aria-hidden="true"></i>&nbsp; Settings</a>
+<!--                    <a href="#" onClick="$('#view_users_request').show();$('#view_users').hide();$('#view_advertisers').hide()"><i class="fa fa-bath" aria-hidden="true"></i>&nbsp; Settings</a>-->
                 </li>
 
             </ul>
@@ -57,77 +57,94 @@ include "header.php";
     </div>
 </div>
 
-    <div id="view_users_request" class="mainbox col-md-176 col-md-offset-173 col-sm-8 col-sm-offset-2" style="position:relative;left:300px;display:none; width: 250px">
-        <span style="position:relative;top:50px;left:900px;font-size:30px;cursor:pointer;" onclick="openNav()"><span style="font-size:30px;border-radius: 100%; background-color: sandybrown;cursor:pointer;"  onclick="openNav()">&nbsp; 04	&nbsp;</span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+    <div id="view_users_request" class="mainbox col-md-176 col-md-offset-173 col-sm-8 col-sm-offset-2" style="position:relative;left:100px; width: 250px">
+        <span style="position:relative;top:50px;left:880px;font-size:30px;cursor:pointer;" onclick="openNav()"><span style="font-size:30px;border-radius: 100%; background-color: sandybrown;cursor:pointer;"  onclick="openNav()">&nbsp; 04	&nbsp;</span>&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></span>
 
-        <div class="row" style="background-color: white;width: 800px;height: 700px;margin-top: 10px">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="well well-sm">
-                            <form>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="name">
-                                                Name</label>
-                                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="email">
-                                                Email Address</label>
-                                            <div class="input-group">
-                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
-                                </span>
-                                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
-                                        </div>
-                                        <div class="form-group">
+        <div class="row" style="background-color: #ccb39a;opacity: 0.8;opacity: 0.8;border-radius: 12px;width: 800px;height: 1050px;margin-top: 10px">
 
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="name">
-                                                Message</label>
-                                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                                                      placeholder="Message"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
-                                            Send Message</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <form>
-                            <legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
-                            <address>
-                                <strong>Twitter, Inc.</strong><br>
-                                795 Folsom Ave, Suite 600<br>
-                                San Francisco, CA 94107<br>
-                                <abbr title="Phone">
-                                    P:</abbr>
-                                (123) 456-7890
-                            </address>
-                            <address>
-                                <strong>Full Name</strong><br>
-                                <a href="mailto:#">first.last@example.com</a>
-                            </address>
-                        </form>
+            <div style="position:relative;width:700px;left:30px;height: 400px;top:30px;">
+                <h3 style="color:#1d140d;"><b>Advertiser details</b></h3><br>
+
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label" style="text-align: left">Advertiser Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Name" disabled>
                     </div>
                 </div>
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label" style="text-align: left">Advertiser Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email" disabled>
+                    </div>
+                </div>
+                <div class="form-group row" style="position:relative;left: 160px;width: 500px">
+                    <a target="_blank" href="img/img.png"> <div  class="img"><img src="img/img.png" class="img-fluid" alt="Responsive image" style="width: 100px"></div></a>
+                    &nbsp;&nbsp;
+                    <a target="_blank" href="img/img.png"><div class="img"><img src="img/img.png" class="img-fluid" alt="Responsive image" style="width: 100px"></div></a>
+                    &nbsp;&nbsp;
+                    <a target="_blank" href="img/img.png"><div class="img"><img src="img/img.png" class="img-fluid" alt="Responsive image" style="width: 100px"></div></a>
+                </div>
+                <label class="col-sm-2 col-form-label" style="text-align: right;left:140px;color: #0000aa">Photo link : </label>
+                <br><br>
+
+                <div class="form-group shadow-textarea">
+                    <label for="exampleFormControlTextarea6">Advertisment details ... </label>
+                    <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here..." disabled></textarea>
+                </div>
+
+            </div>
+            <br><br><br><br><br><br>
+
+            <div style="position:relative;width:700px;left:30px">
+
+                <h3 style="color:#1d140d;"><b>User details</b></h3><br>
+
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label" style="text-align: left">User Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Name" disabled>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label" style="text-align: left">User Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email" disabled>
+                    </div>
+                </div>
+                <div class="form-group row" style="position:relative;left: 160px;width: 500px">
+
+                <label  style="text-align: right;left:140px;color: #1d0a06">Screenshots&nbsp;&nbsp; : </label>
+                <br><br>
+
+                    <a target="_blank" href="img/img.png"> <div  class="img"><img src="img/img.png" class="img-fluid" alt="Responsive image" style="width: 100px"></div></a>
+                    &nbsp;&nbsp;
+                    <a target="_blank" href="img/img.png"><div class="img"><img src="img/img.png" class="img-fluid" alt="Responsive image" style="width: 100px"></div></a>
+                    &nbsp;&nbsp;
+                    <a target="_blank" href="img/img.png"><div class="img"><img src="img/img.png" class="img-fluid" alt="Responsive image" style="width: 100px"></div></a>
+
             </div>
 
+                <div class="col-md-12" style="position:relative;left:620px;width: 300px;">
+                    <a href="transaction.php"> <button type="button" class="btn btn-info" id="btnAccept">
+                        Accept</button></a>
+                </div>
+                <br><br>
+                <div class="md-form amber-textarea active-amber-textarea-2">
+                    <i class="fa fa-pencil prefix"></i>
+                    <textarea type="text" id="form24" class="md-textarea form-control" rows="3" placeholder="Type a message for the user"></textarea>
+
+                </div>
+                <button type="submit" class="btn btn-info" id="btnMsg">
+                    Send a message</button>
+            </div>
+
+
         </div>
-
-
     </div>
 
+
 <!--======================================== view user ================================-->
-    <div id="view_users" class="mainbox col-md-176 col-md-offset-173 col-sm-8 col-sm-offset-2" style="position:relative;left:300px;display:none; width: 250px">
+    <div id="view_users" class="mainbox col-md-176 col-md-offset-173 col-sm-8 col-sm-offset-2" style="position:relative;left:100px;display:none; width: 350px;top:15px">
         <div class="row">
             <center>
                 <table class="table table-hover table-light" style="opacity:0.8;background-color:#ccb39a;position:relative;width: 900px;top:40px;border-radius: 12px">
@@ -210,7 +227,7 @@ include "header.php";
     </div>
 
     <!--======================================== view advertisers ================================-->
-    <div id="view_advertisers" class="mainbox col-md-176 col-md-offset-173 col-sm-8 col-sm-offset-2" style="position:relative;left:300px;display:none; width: 250px">
+    <div id="view_advertisers" class="mainbox col-md-176 col-md-offset-173 col-sm-8 col-sm-offset-2" style="position:relative;left:100px;display:none; width: 350px;top:15px">
         <div class="row">
             <center>
                 <table class="table table-hover table-light" style="opacity:0.8;background-color:#ccb39a;position:relative;width: 900px;top:40px;border-radius: 12px">
@@ -293,7 +310,7 @@ include "header.php";
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
         <!--    ====-->
-        <div class="col-md-5 offset-md-1" style="background-color: #ccb39a;border-radius: 15px;opacity: 0.9">
+        <div class="col-md-5 offset-md-1" style="background-color: #ccb39a;border-radius: 15px;opacity: 0.9;;left: 300px">
             <ul id="sortable">
                 <li><div class="media" style="color: black">
                         <div class="media-left align-self-center">
